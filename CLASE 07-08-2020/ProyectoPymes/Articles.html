@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Article</title>
+    </head>
+
+    <body>
+
+        <ul>
+            <li><a href="IndexPage.html">Inicio</a></li>
+            <li><a href="Articulos.html">Articulos</a></li>
+            <li><a href="FamiliasArticulos.html">Familias Articulos</a></li>
+        </ul>
+
+        <h1>Articulos (Listado)</h1>
+
+        <br>
+
+        <form method="GET">
+
+            <label for="Nombre">Nombre:</label> <input type="text" id="Nombre" name="Nombre">
+            <label for="Activo">Activo:</label>
+
+            <select name="Activo" id="Activo">
+                <option value=""></option>
+                <option value="true">SI</option>
+                <option value="false">NO</option>
+            </select>
+
+            <br>
+            
+            <input name="button" name="Buscar">
+            <input name="button" name="Agregar">
+        </form>
+
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Stock</th>
+                <th>Acciones</th>                
+            </tr>
+
+            <tr>
+                <td>ADAPTADOR USB WIFI TL-WN722N</td>
+                <td>$219.00</td>
+                <td>554</td>
+                <td>
+                    <input type="button" value="V">
+                    <input type="button" value="M">
+                    <input type="button" value="B">
+                </td>
+            </tr>
+
+            <tr>
+                <td>TOCA DISCO WINCO</td>
+                <td>$219.00</td>
+                <td>554</td>
+                <td>
+                    <input type="button" value="V">
+                    <input type="button" value="M">
+                    <input type="button" value="B">
+                </td>
+            </tr>
+
+        </table>
+
+        <form id="FormReg">
+            <label for=""></label> <input type="text" id="Nombre" name="Nombre">
+            <label for=""></label> <input type="text" id="Precio" name="Precio">
+            <label for=""></label> <input type="text">
+        </form>
+
+
+    </body>
+
+</html>
