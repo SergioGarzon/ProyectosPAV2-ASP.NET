@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explicaci&oacute;n del Input</title>
+
+    <style>
+        body {
+            background-color:teal;
+            font-size: large;
+            color: white;
+        }
+
+        p {
+            color: black;
+        }
+    </style>
+
 </head>
 <body>
     
     <p>Explicaci&oacute;n del Input</p>
 
-    <p>
         &lt;input type="text" name="Nombre" requiered maxlength="45" /&gt;
 
         <br>
@@ -37,22 +49,57 @@
 
         &lt;input type="button" name="alerta" value="Mostrar alerta" onclick="alert('Alerta!!!')" /&gt;
     
-
-
-
-
-
-
-
         <p>Otro tipo de Bot&oacute;n</p>
 
         &lt;button type="button"&gt;&lt;/button&gt;
 
+        <p>Otro tipo de Input es el Radio Button</p>
+
+        &lt;input type="radio" name="nacionalidad" value="argentina" checked&gt;Argentina&lt;br&gt; <br>
+        &lt;input type="radio" name="nacionalidad" value="uruguay"&gt;Uruguay&lt;br&gt; <br>
+        &lt;input type="radio" name="nacionalidad" value="chile"&gt;Chile&lt;br&gt; <br>
+        &lt;input type="radio" name="nacionalidad" value="otr"&gt;Otro&lt;br&gt; <br>
+
+        <p>Checkbox</p>
+
+        &lt;input type="checkbox" name="idioma1" value="ingles" checked&gt;Ingl&eacute;&lt;br&gt; <br>
+        &lt;input type="checkbox" name="idioma2" value="portugues" checked&gt;Portugues&lt;br&gt; <br>
+
+        <br>
+
+        <input type="checkbox" name="idioma1" value="ingles" checked> Ingl&eacute;s <br>
+        <input type="checkbox" name="idioma2" value="portugues" checked> Portugues
+
+        <br>
+        
+        <p>Textarea</p>
+
+        &lt;textarea name="observaciones" cols="30" rows="4" placeholder="Ingrese su observaci&oacute;n"&gt;&lt;/textarea&gt;
+
+        <p>Otro tipo es el Select que es como un comboBox</p>
+
+        &lt;select name="menu" size="3"&gt; <br>
+        &nbsp; &lt;option value="lcom"&gt;Lomito Completo&lt;/option&gt; <br> 
+        &nbsp; &lt;option value="pmuz"&gt;Pizza Musarella&lt;/option&gt; <br>
+        &nbsp; &lt;option value="lcom"&gt;Tarta Jam&oacute;n&lt;/option&gt; <br>
+        &nbsp; &lt;option value="lcom"&gt;S&aacute;ndwich Milanesa&lt;/option&gt; <br>
+        &nbsp; &lt;option value="" selected&gt;(Sin selecci&oacute;n)&lt;/option&gt; <br> 
+        &lt;/select&gt;
+
+        <br><br>
+
+        <select name="menu" size="3">  <!--El size 3 le da tamaño cantidad de items creo-->
+            <option value="lcom">Lomito Completo</option>
+            <option value="pmuz">Pizza Musarella</option>
+            <option value="tjam">Tarte Jam&oacute;n</option>
+            <option value="smil">S&aacute;ndwich Milanesa</option>
+            <option value="" selected>(Sin selecci&oacute;n)</option>
+        </select>
 
 
 
 
-    </p>
+
 
 </body>
 </html>
